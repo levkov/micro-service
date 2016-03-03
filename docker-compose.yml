@@ -1,0 +1,8 @@
+dev:
+  build: .
+  ports:
+  - "222:22"
+  - "9001:9001"
+  - "80:80"
+  - "9181:9181"
+  hostname: micro-service
